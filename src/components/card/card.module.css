@@ -1,0 +1,59 @@
+.card {
+	width: 307px;
+	height: 500px;
+	flex-shrink: 0;
+}
+
+.card-sedans {
+	background-color: var(--color-sedans);
+	border-radius: 8px 8px 0px 0px;
+}
+
+@media (width>= 768px) {
+	.card-sedans {
+		border-radius: 8px 0px 0px 8px;
+		
+	}
+}
+
+
+.card-suvs {
+	background-color: var(--color-suvs);
+}
+
+.card-luxury {
+	background-color:var(--color-luxury);
+	border-radius: 0px 0px 8px 8px;
+}
+
+@media (width>= 768px) {
+	.card-luxury {
+		border-radius: 0px 8px 8px 0px;
+		
+	}
+}
+
+.container {
+	padding: 3rem;
+}
+
+.title {
+	color: #f2f2f2;
+	font-family: Big Shoulders Display;
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	/* text-transform: uppercase; */
+}
+
+.description {
+	color: #fff;
+	font-family: Lexend Deca;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 25px; /* 166.667% */
+	opacity: 0.75;
+	margin-bottom: 5rem;
+}

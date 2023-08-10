@@ -1,0 +1,38 @@
+
+
+
+.button {
+	color: transparent;
+	font-family: Lexend Deca;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 25px;
+	border-radius: 25px;
+	border: 2px solid #fff;
+	width: 146px;
+	height: 48px;
+	flex-shrink: 0;
+	background-color: #fff;
+}
+
+.button--sedans{
+	color: var(--color-sedans);
+}
+
+.button--suvs{
+	color: var(--color-suvs);
+}
+
+.button--luxury{
+	color: var(--color-luxury);
+}
+
+@media (width>= 768px) {
+	.button {
+		
+		background-color: transparent;
+		color: #fff;
+	}
+}
+
